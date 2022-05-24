@@ -40,6 +40,10 @@
     color: var(--secondary-color);
 }
 
+.navItems a.active{
+    border-bottom: 3px solid var(--secondary-color);
+}
+
 .contact a{
     color: var(--primary-color);
     text-decoration: none;
@@ -100,6 +104,8 @@
     color: var(--grey-color);
     margin: 2rem 4.5rem;
 }
+
+
 
 @media screen and (max-width:990px) {
 
