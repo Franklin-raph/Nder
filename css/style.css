@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+:root{
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --grey-color: #b2b2b2;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5rem;
+    background-color: var(--primary-color);
+    /* box-shadow: 0 3px 12px var(--grey-color); */
+    font-size: 1.2rem;
+}
+
+.navItems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.navItems li{
+    list-style: none;
+    
+}
+
+.navItems a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.contact a{
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    padding: 14px 22px;
+}
+
+.contact1{
+    
+    display: none;
+}
+
+.contact1 a{
+    color: var(--primary-color);
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    padding: 14px 22px;
+    
+}
+
+#homeSection{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    width: 70%;
+    margin: 9rem auto 3rem auto;
+}
+
+#homeSection h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#homeSection p{
+    font-size: 22px;
+    line-height: 38px;
+    width: 65%;
+    margin:  0 auto;
+}
+
+#socialLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#socialLinks > a{
+    font-size: 40px;
+    font-weight:lighter;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.tradeMark{
+    color: var(--grey-color);
+    margin: 2rem 4.5rem;
+}
+
+@media screen and (max-width:990px) {
+
+    .navbar{
+        box-shadow: 0 3px 12px var(--grey-color);
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact{
+        display: none;
+    }
+    .contact1{
+        display: block;
+        margin: 3rem 0;
+    }
+
+    #homeSection{
+        width: 90%;
+    }
+    #homeSection h1{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #homeSection p{
+        width: 80%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:778px) {
+
+    .navbar{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #homeSection{
+        margin-top: 5rem;
+    }
+    #homeSection h1{
+        font-size: 2rem;
+    }
+
+    #homeSection p{
+        width: 85%;
+    }
+    .navItems{
+        gap: 25px;
+        font-size: 1rem;
+    }
+
+    .tradeMark{
+        text-align: center;
+    }
+    #socialLinks{
+        gap: 25px;
+        font-size: 12px;
+    }
+
+    #socialLinks > a{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #homeSection h1{
+        font-size: 1.8rem;
+    }
+
+
+}
