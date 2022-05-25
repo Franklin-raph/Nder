@@ -112,7 +112,11 @@
     .navbar{
         box-shadow: 0 3px 12px var(--grey-color);
         flex-direction: column;
-        gap: 20px;
+        gap: 30px;
+    }
+
+    .navItems{
+        width: 100%;
     }
     .contact{
         display: none;
@@ -142,7 +146,10 @@
         padding-left: 2rem;
         padding-right: 2rem;
     }
-
+    .navItems .case{
+        margin: 0 3rem;
+    }
+    
     #homeSection{
         margin-top: 5rem;
     }
@@ -171,10 +178,11 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:384px) {
     #homeSection h1{
         font-size: 1.8rem;
     }
-
-
+    .navItems .case{
+        margin: 0;
+    }
 }
