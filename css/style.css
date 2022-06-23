@@ -65,13 +65,15 @@
 }
 
 #homeSection{
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
     width: 70%;
     margin: 9rem auto 3rem auto;
+}
+
+#caseSection{
+    text-align: center;
+    width: 70%;
+    margin: 3rem auto;
 }
 
 #homeSection h1{
@@ -79,10 +81,21 @@
     margin-bottom: 1rem;
 }
 
+#caseSection h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
 #homeSection p{
     font-size: 22px;
     line-height: 38px;
     width: 65%;
+    margin:  0 auto;
+}
+
+#caseSection p{
+    font-size: 18px;
+    width: 95%;
     margin:  0 auto;
 }
 
@@ -129,6 +142,7 @@
     #homeSection{
         width: 90%;
     }
+    
     #homeSection h1{
         font-size: 2.5rem;
         margin-bottom: 1rem;
