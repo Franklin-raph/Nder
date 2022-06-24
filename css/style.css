@@ -118,7 +118,89 @@
     margin: 2rem 4.7rem;
 }
 
+.case1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/case1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 65vh;
+    width: 90%;
+    margin: 1rem auto;
+}
 
+.case2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/case2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 65vh;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.case3{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/case3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 65vh;
+    width: 90%;
+    margin: 1rem auto 2rem;
+}
+
+.caseTexts{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+    width: 38%;
+    background-color: var(--primary-color);
+    padding: 1.5rem;
+}
+
+.caseTexts h3{
+    margin-bottom: .5rem;
+}
+
+.caseTexts p{
+    font-size: 14px;
+}
+
+#caseSocialLinks{
+    margin: 3rem 0 0 4.2rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 16px;
+}
+
+
+#caseSocialLinks > a{
+    font-size: 25px;
+    font-weight:lighter;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.caseTradeMark{
+    color: var(--grey-color);
+    margin: 0.2rem 4.2rem;
+    font-size: 14px;
+}
+
+.chat{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    text-align: center;
+    font-size: 22px;
+}
 
 @media screen and (max-width:990px) {
 
@@ -142,7 +224,7 @@
     #homeSection{
         width: 90%;
     }
-    
+
     #homeSection h1{
         font-size: 2.5rem;
         margin-bottom: 1rem;
