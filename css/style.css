@@ -125,7 +125,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 65vh;
+    height: 55vh;
     width: 90%;
     margin: 1rem auto;
 }
@@ -136,7 +136,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 65vh;
+    height: 55vh;
     width: 90%;
     margin: 2rem auto;
 }
@@ -147,7 +147,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 65vh;
+    height: 55vh;
     width: 90%;
     margin: 1rem auto 2rem;
 }
@@ -167,6 +167,11 @@
 
 .caseTexts p{
     font-size: 14px;
+}
+
+#caseImages a{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 
 #caseSocialLinks{
