@@ -527,7 +527,11 @@ input:focus, textarea:focus{
     }
 
     input, textarea{
-        width: 350px;
+        width: 280px;
+    }
+
+    .aboutHeaderText{
+        font-size: 2rem;
     }
 
 }
@@ -540,7 +544,7 @@ input:focus, textarea:focus{
         margin: 0;
     }
 
-    input, textarea{
+    /* input, textarea{
         width: 200px;
-    }
+    } */
 }
