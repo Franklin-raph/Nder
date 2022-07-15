@@ -465,6 +465,22 @@ h1{
     .about-text{
         margin-right: 0;
     }
+
+    .aboutFooter, .caseFooter{
+        display: grid;
+        place-content: center;
+        place-items: center;
+    }
+
+    #caseSocialLinks, #aboutSocialLinks{
+        margin-left: 0;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+
+    .aboutFooter .chat, .caseFooter .chat{
+        top: 10%;
+    }
 }
 
 @media screen and (max-width:384px) {
