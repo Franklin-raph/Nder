@@ -470,6 +470,8 @@ h1{
         display: grid;
         place-content: center;
         place-items: center;
+        padding-bottom: 20px;
+        text-align: center;
     }
 
     #caseSocialLinks, #aboutSocialLinks{
