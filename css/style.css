@@ -212,6 +212,10 @@ h1{
     font-size: 22px;
 }
 
+#aboutMeSection{
+    margin-top: 3rem;
+}
+
 #aboutMeSection, #contactMeSection{
     padding: 1.5rem 7rem 0;
 }
