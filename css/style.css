@@ -351,6 +351,15 @@ input:focus, textarea:focus{
     outline: #b2b2b2;
 }
 
+.sendMessageBtn{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    height: 100%;
+    margin: 10px 0;
+    width: 30%;
+}
+
 @media screen and (max-width:1440px) {
 
     .aboutExpandEdu{
@@ -527,7 +536,11 @@ input:focus, textarea:focus{
     }
 
     input, textarea{
-        width: 280px;
+        width: 400px;
+    }
+
+    .sendMessageBtn{
+        width: 50%;
     }
 
     .aboutHeaderText{
@@ -544,7 +557,7 @@ input:focus, textarea:focus{
         margin: 0;
     }
 
-    /* input, textarea{
-        width: 200px;
-    } */
+    input, textarea{
+        width: 280px;
+    }
 }
