@@ -560,4 +560,8 @@ input:focus, textarea:focus{
     input, textarea{
         width: 280px;
     }
+
+    .sendMessageBtn{
+        width: 70%;
+    }
 }
