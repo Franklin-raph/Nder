@@ -212,7 +212,7 @@ h1{
     font-size: 22px;
 }
 
-#aboutMeSection{
+#aboutMeSection, #contactMeSection{
     padding: 1.5rem 7rem 0;
 }
 
@@ -227,11 +227,17 @@ h1{
     font-size: 1.1rem;
 }
 
-.aboutContent p{
+.contactContent{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.aboutContent p, .contactContent p{
     margin-bottom: 1.2rem;
 }
 
-.about-text{
+.about-text, .contactInput {
     margin-right: 7rem;
 }
 
@@ -310,10 +316,53 @@ h1{
     margin-top: -10%;
 }
 
+.contactInput form{
+    display: grid;
+}
+
+.contactInput form div{
+    margin: 1rem 0;
+}
+
+label, input{
+    display: block;
+}
+
+label{
+    color: var(--grey-color);
+}
+
+input{
+    width: 700px;
+    height: 40px;
+    border: 1px solid #b2b2b2;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+textarea{
+    width: 700px;
+    border: 1px solid #b2b2b2;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+input:focus, textarea:focus{
+    outline: #b2b2b2;
+}
+
 @media screen and (max-width:1440px) {
 
     .aboutExpandEdu{
         margin-top: 0%;
+    }
+
+    .contactInput {
+        margin-right: 2.8rem;
+    }
+
+    input, textarea{
+        width: 550px;
     }
 }
 
@@ -350,7 +399,7 @@ h1{
         font-size: 18px;
     }
 
-    #aboutMeSection{
+    #aboutMeSection, #contactMeSection{
         padding: 1.5rem 3rem 0;
     }
 
@@ -370,13 +419,6 @@ h1{
     .about-img2 img{
         width: 100%;
     }
-
-    /* .about-img2 a{
-        display: block;
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
     .cvBtns{
         display: flex;
@@ -462,7 +504,7 @@ h1{
         font-size: 30px;
     }
 
-    .about-text{
+    .about-text, .contactInput{
         margin-right: 0;
     }
 
@@ -483,6 +525,11 @@ h1{
     .aboutFooter .chat, .caseFooter .chat{
         top: 10%;
     }
+
+    input, textarea{
+        width: 350px;
+    }
+
 }
 
 @media screen and (max-width:384px) {
@@ -491,5 +538,9 @@ h1{
     }
     .navItems .case{
         margin: 0;
+    }
+
+    input, textarea{
+        width: 200px;
     }
 }
