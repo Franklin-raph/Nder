@@ -7,6 +7,10 @@
     font-family: "Poppins";
 }
 
+h1{
+    font-weight: 600;
+}
+
 :root{
     --primary-color: #fff;
     --secondary-color: #000;
@@ -264,9 +268,9 @@
     box-shadow: 1px 1px 12px var(--grey-color);
 }
 
-.aboutLists h1, .toolsLists h1{
+.aboutLists h1, .toolsLists h1, .experience h1{
     margin-bottom: 0.5rem;
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 .aboutLists p, .toolsLists p{
@@ -276,6 +280,16 @@
 
 .toolsLists{
     margin-top: 2rem;
+}
+
+.experience{
+    margin-top: 7rem;
+}
+
+.experience h2{
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width:990px) {
