@@ -128,7 +128,7 @@ h1{
 }
 
 .case1{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/case1.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/Rectangle\ 6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -139,7 +139,7 @@ h1{
 }
 
 .case2{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/case2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/Rectangle\ 6-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -150,7 +150,7 @@ h1{
 }
 
 .case3{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/case3.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/images/Rectangle\ 6-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
