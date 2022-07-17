@@ -416,6 +416,7 @@ input:focus, textarea:focus{
 
 .casePageFirstImage{
     display: flex;
+    flex-wrap: wrap;
     margin: 2rem 0;
     gap: 1rem;
 }
@@ -485,8 +486,7 @@ input:focus, textarea:focus{
     }
 
     #casePageInfoSection{
-        width: 70%;
-        margin:4rem 2rem 1rem;
+        margin:4rem 7rem 1rem;
     }
 }
 
@@ -603,6 +603,10 @@ input:focus, textarea:focus{
         display: none;
     }
 
+    #casePageInfoSection{
+        margin:4rem 9rem 1rem;
+    }
+
     /* .casePageTextDiv{
         margin: 0 1rem;
     } */
@@ -691,6 +695,19 @@ input:focus, textarea:focus{
         left: 50%;
         transform: translate(-50%, -5%);
         width: 92%;
+    }
+
+    .casePageBgContent .casePageTextDiv{
+        margin: 0 1rem;
+        width: 100%;
+    }
+
+    #casePageInfoSection{
+        margin:4rem 3rem 1rem;
+    }
+
+    #casePageBgSection a{
+        margin-left: 1rem;
     }
 
 }
