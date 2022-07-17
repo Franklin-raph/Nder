@@ -9,6 +9,7 @@
 
 html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 h1{
@@ -604,6 +605,7 @@ input:focus, textarea:focus{
     }
 
     #casePageInfoSection{
+        width: 100%;
         margin:4rem 9rem 1rem;
     }
 
@@ -703,7 +705,8 @@ input:focus, textarea:focus{
     }
 
     #casePageInfoSection{
-        margin:4rem 3rem 1rem;
+        margin:4rem 1rem 1rem;
+        /* padding-right: rem; */
     }
 
     #casePageBgSection a{
