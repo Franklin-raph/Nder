@@ -28,7 +28,6 @@ h1{
     justify-content: space-between;
     padding: 20px 5rem;
     background-color: var(--primary-color);
-    /* box-shadow: 0 3px 12px var(--grey-color); */
     font-size: 1.2rem;
 }
 
@@ -625,9 +624,6 @@ input:focus, textarea:focus{
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .navItems .case{
-        margin: 0 3rem;
-    }
     
     #homeSection{
         margin-top: 5rem;
@@ -640,8 +636,9 @@ input:focus, textarea:focus{
         width: 85%;
     }
     .navItems{
-        gap: 25px;
+        gap: 55px;
         font-size: 1rem;
+        width: 100%;
     }
 
     .tradeMark{
@@ -733,10 +730,6 @@ input:focus, textarea:focus{
 @media screen and (max-width:384px) {
     #homeSection h1{
         font-size: 1.8rem;
-    }
-
-    .navItems .case{
-        margin: 0;
     }
 
     input, textarea{
