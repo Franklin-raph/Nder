@@ -423,7 +423,7 @@ input:focus, textarea:focus{
 }
 
 .casePageFirstImage img{
-    width: 40%;
+    width: 80%;
 }
 
 .casePageSecondImage{
@@ -609,6 +609,10 @@ input:focus, textarea:focus{
         margin:4rem 9rem 1rem;
     }
 
+    #caseSection{
+        width: 90%;
+    }
+
     /* .casePageTextDiv{
         margin: 0 1rem;
     } */
@@ -675,11 +679,15 @@ input:focus, textarea:focus{
     }
 
     input, textarea{
-        width: 400px;
+        width: 350px;
     }
 
     .sendMessageBtn{
         width: 50%;
+    }
+
+    #aboutMeSection, #contactMeSection{
+        padding: 1.5rem 1.5rem 0;
     }
 
     .aboutHeaderText{
@@ -705,20 +713,28 @@ input:focus, textarea:focus{
     }
 
     #casePageInfoSection{
-        margin:4rem 1rem 1rem;
+        margin:4rem 2rem 1rem;
         /* padding-right: rem; */
+    }
+
+    .contactContent{
+        padding: 1.5rem 3rem 0;
     }
 
     #casePageBgSection a{
         margin-left: 1rem;
     }
 
+    .contactContent{
+        padding: 3rem;
+    }
 }
 
 @media screen and (max-width:384px) {
     #homeSection h1{
         font-size: 1.8rem;
     }
+
     .navItems .case{
         margin: 0;
     }
@@ -733,6 +749,8 @@ input:focus, textarea:focus{
 
     .navbar{
         padding: 20px 0;
+        text-align: center;
+        width: 100%;
     }
     .cvBtns{
         display: grid;
