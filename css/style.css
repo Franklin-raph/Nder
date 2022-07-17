@@ -405,6 +405,45 @@ input:focus, textarea:focus{
     margin-left: 4rem;
 }
 
+#casePageInfoSection{
+    width: 70%;
+    margin:4rem 11rem 1rem;
+}
+
+#casePageInfoSection h3{
+    margin: 2.2rem 0 5px 0;
+}
+
+.casePageFirstImage{
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.casePageFirstImage img{
+    width: 40%;
+}
+
+.casePageSecondImage{
+    margin: 2rem 0;
+    gap: 1rem;
+    display: grid;
+    /* padding-right: 70rem; */
+}
+
+.casePageSecondImage img{
+    width: 80%;
+}
+
+
+#casePageInfoSection p, #casePageInfoSection ol{
+    color:#4D4D4D;
+}
+
+.casePageFirstInfo, .casePageSecondInfo{
+    width: 70%;
+}
+
 #scrollToTop{
     display: none;
     position: fixed;
@@ -430,6 +469,24 @@ input:focus, textarea:focus{
 
     input, textarea{
         width: 550px;
+    }
+    
+    .casePageBgContent{
+        align-items: center;
+    }
+
+    .casePageBgContent .casePageTextDiv{
+        width: 70%;
+        margin:0 5rem;
+    }
+
+    .casePageimgDiv{
+        width: 100%;
+    }
+
+    #casePageInfoSection{
+        width: 70%;
+        margin:4rem 2rem 1rem;
     }
 }
 
@@ -541,6 +598,14 @@ input:focus, textarea:focus{
     .caseTexts{
         width: 70%;
     }
+
+    .casePageimgDiv{
+        display: none;
+    }
+
+    /* .casePageTextDiv{
+        margin: 0 1rem;
+    } */
 
 }
 
