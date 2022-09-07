@@ -549,7 +549,7 @@ input:focus, textarea:focus{
 @media screen and (max-width:992px) {
 
     .navbar{
-        box-shadow: 0 3px 12px var(--grey-color);
+        box-shadow: 0 3px 12px #ececec;
         flex-direction: column;
         gap: 30px;
     }
